@@ -11,7 +11,7 @@ A Generative AI project (RAG): upload a PDF, ask a question in plain language, a
 
 ## Testing
 
-I tested it on the free book *Think Python* (2nd edition) by Allen B. Downey, about 250 pages. The PDF is not included here; the official page is https://greenteapress.com/thinkpython2
+I tested it on the free book *Think Python* (2nd edition) by Allen B. Downey, a full-length book. The PDF is not included here; the official page is https://greenteapress.com/thinkpython2
 
 The test has 20 questions in `questions.csv`: 16 whose answers are in the book and 4 that are not. A question counts as correct when the answer contains the expected key word. Out-of-book questions count as correct when the app says it could not find the answer. `eval.py` runs the test.
 
@@ -21,7 +21,7 @@ The test has 20 questions in `questions.csv`: 16 whose answers are in the book a
 | 2 | Added exact-word search (hybrid) | 14 of 16 | 4 of 4 |
 | 3 | Sent 12 chunks instead of 6 | 15 of 16 | 4 of 4 |
 
-What I found: in run 1, four failures were search misses (the answer was in the book but not retrieved), and one out-of-book question was a mistake of mine, because the book does mention the person. I replaced that question and a weak one after run 1, so the test was tuned a little against these questions.
+What I found: In run 1, four failures were search misses (the answer was in the book but not retrieved). One out-of-book question ("Who is the CEO of Google?") turned out to be answerable from the book, because the app found a mention on page 223, so I replaced it. I also replaced one weak question after run 1, so the test was tuned a little against these questions.
 
 ## Limitations
 
