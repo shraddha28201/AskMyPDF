@@ -1,0 +1,21 @@
+question,keyword
+What does the book say a program is?,instructions
+Which web page does the author recommend for running Python in a browser?,pythonanywhere
+What does the book say is the single most important skill for a computer scientist?,problem solving|problem-solving
+What is the result of 84 / 2 in Python 3?,42.0
+What does the ^ operator do in Python?,xor
+What are the three kinds of errors that can occur in a program?,semantic
+What is a function called that does not return a value?,void
+What special value do void functions return?,none
+What is the traditional first program written in a new language?,hello
+What is wrapping a piece of code up in a function called?,encapsulation
+What is adding a parameter to a function called?,generalization
+What do the turtle methods pu and pd stand for?,pen up
+By convention how many spaces is indentation in Python?,four|4 spaces
+Why is 76trombones an illegal variable name?,begins with a number|starts with a number|begin with a number|start with a number
+What does int do to the fraction part of a floating-point number like 3.99999?,chop|truncat
+At which college did the author start teaching in 2003?,olin
+Who won the cricket world cup?,
+What is the capital of France?,
+What is the boiling point of water?,
+ What is the price of an iPhone?,
