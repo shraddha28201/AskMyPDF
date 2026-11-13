@@ -1,0 +1,7 @@
+key.txt
+.venv/
+venv/
+__pycache__/
+thinkpython.pdf
+test.pdf
+eval_pdf_results.csv
